@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="18" fill="#236ba8"/>
+  <rect x="18" y="145" width="144" height="12" fill="#c73545"/>
+  <text x="90" y="119" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="83" font-weight="700">FM</text>
+</svg>

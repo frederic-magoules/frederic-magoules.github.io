@@ -1404,3 +1404,8 @@ td {
   }
   .thematic-gallery .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* Teaching textbook covers: same dimensions as Authored Books. */
+.teaching-resource:has(> .teaching-book-cover) { display: grid; grid-template-columns: 7.2rem minmax(0, 1fr); gap: 1.2rem; }
+.teaching-book-copy { min-width: 0; }
+@media (max-width: 520px) { .teaching-resource:has(> .teaching-book-cover) { grid-template-columns: 5rem minmax(0, 1fr); gap: 0.8rem; } .teaching-book-cover { width: 5rem; height: 7rem; } }

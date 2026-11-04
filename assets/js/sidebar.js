@@ -172,12 +172,12 @@
   target.innerHTML = `
     <nav class="site-nav" aria-label="Main navigation">
       <details class="nav-group">
-        <summary>Curriculum Vitae</summary>
+        <summary>Curriculum vitae</summary>
         <ul>
           <li><a data-nav="biosketch" href="index.html">Biosketch</a></li>
           <li><a href="pdfs/biosketch.pdf" target="_blank" rel="noopener">Biosketch (PDF)</a></li>
-          <li><a data-nav="cv" href="pdfs/curriculum.pdf" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a></li>
-          <li><a data-nav="honours-leadership" href="honours-leadership.html">Academic Recognition</a></li>
+          <li><a data-nav="cv" href="pdfs/curriculum.pdf" target="_blank" rel="noopener">Curriculum vitae (PDF)</a></li>
+          <li><a data-nav="honours-leadership" href="honours-leadership.html">Honours and distinctions</a></li>
         </ul>
       </details>
 
@@ -185,7 +185,7 @@
         <summary>Publications</summary>
         <ul>
           <li><a data-nav="publications" href="publications.html">Selected publications</a></li>
-          <li><a href="pdfs/publications.pdf" target="_blank" rel="noopener">Complete List (PDF)</a></li>
+          <li><a href="pdfs/publications.pdf" target="_blank" rel="noopener">Complete list (PDF)</a></li>
         </ul>
       </details>
 
@@ -194,22 +194,22 @@
         <ul>
           <li><a data-nav="authored-books" href="authored-books.html">Authored books</a></li>
           <li><a data-nav="edited-books" href="edited-books.html">Edited books</a></li>
-          <li><a data-nav="edited-proceedings" href="edited-conference-proceedings.html">Edited Conference Proceedings</a></li>
+          <li><a data-nav="edited-proceedings" href="edited-conference-proceedings.html">Edited conference proceedings</a></li>
         </ul>
       </details>
 
       <details class="nav-group issues">
-        <summary>Special Issues</summary>
+        <summary>Special issues</summary>
         <ul>
-          <li><a data-nav="issues" href="special-issues.html">Guest-Edited Journal Issues</a></li>
+          <li><a data-nav="issues" href="special-issues.html">Guest-edited journal issues</a></li>
         </ul>
       </details>
 
       <details class="nav-group">
-        <summary>Press Coverage</summary>
+        <summary>Media and press coverage</summary>
         <ul>
-          <li><a data-nav="press" href="press-coverage.html">Media and Press Coverage</a></li>
-          <li><a href="pdfs/press-coverage.pdf" target="_blank" rel="noopener">Complete Coverage (PDF)</a></li>
+          <li><a data-nav="press" href="press-coverage.html">Media and press coverage</a></li>
+          <li><a href="pdfs/press-coverage.pdf" target="_blank" rel="noopener">Complete coverage (PDF)</a></li>
         </ul>
       </details>
 
@@ -249,6 +249,7 @@
 
     <div class="profile-links" aria-label="Academic profiles">
       <a href="https://cv.hal.science/magoulesf" rel="me noopener" target="_blank">HAL</a>
+      <a href="https://arxiv.org/search/?query=Magoul%C3%A8s%2C+F&amp;searchtype=author" rel="noopener" target="_blank">arXiv</a>
       <a href="https://orcid.org/0000-0002-1198-7539" rel="me noopener" target="_blank">ORCID</a>
       <a href="https://scholar.google.com/citations?user=Nqu5zWwAAAAJ" rel="me noopener" target="_blank">Google Scholar</a>
     </div>`;

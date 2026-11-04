@@ -1409,3 +1409,6 @@ td {
 .teaching-resource:has(> .teaching-book-cover) { display: grid; grid-template-columns: 7.2rem minmax(0, 1fr); gap: 1.2rem; }
 .teaching-book-copy { min-width: 0; }
 @media (max-width: 520px) { .teaching-resource:has(> .teaching-book-cover) { grid-template-columns: 5rem minmax(0, 1fr); gap: 0.8rem; } .teaching-book-cover { width: 5rem; height: 7rem; } }
+
+/* Subtle section dividers on the honours and distinctions page. */
+#honours ~ section[id] { border-top: 1px solid #d5dadd; margin-top: 1.8rem; padding-top: 0.35rem; }
